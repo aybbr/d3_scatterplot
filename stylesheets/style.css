@@ -1,0 +1,108 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ h1 {
+    color: #ffffff;
+    font-family:  'Raleway';
+    font-weight: normal;
+        font-size: 1.75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#control {
+    color: #ffffff;
+}
+#container {
+    width:935px;
+    
+
+}
+#header {
+    widows: 850px;
+    height: 50px;
+    padding: 5px;
+    
+}
+#sidebar {
+    height:400px;
+    width:150px;
+    
+    float:left;
+}
+#sidebarright {
+    height: 410px;
+    width: 150px;
+   
+    top:30px;
+    left: 300px;
+    
+}
+#content {
+    background-color:#ffffff;
+    height:400px;
+    width:650px;
+    float:left;
+}
+#footer {
+    width:935px;
+    height: 50px;
+    float:left;
+}
+
+circle {
+    stroke: #1abc9c;
+    stroke-width: 2;
+    fill: white;
+}
+
+.d3-tip {
+     font-family:  'Raleway';
+     line-height: 1;
+     padding: 1px;
+     background: transparent;
+     color: indigo;
+     border-radius: 2px;
+ }
+
+ .axis path, .axis line {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: 'Raleway';
+    font-size: 11px;
+}
+
+    #sidebar {
+    height:400px;
+    width:140px;
+    background: #1abc9c;
+    float:left;
+    font-family:  'Raleway';
+    font-size: 11px;
+    padding: 5px;
+}
+select, button {
+    margin: 5px;
+    font-family:  'Raleway';
+    font-size: 12px;
+}
+
+.grad {
+  background: #1abc9c; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #1abc9c , #1abfff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #1abc9c, #1abfff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #1abc9c, #1abfff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #1abc9c , #1abfff); /* Standard syntax */
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+   <title>D3.js scatterplot sample</title>
+</head>
+
+<body>
+    <div id="container" class="grad">
+        <div id="header" class="grad">
+            <h1>Scatterplot sample</h1>
+        </div>
+        <div id="sidebar" class="grad">
+            <div id="control">X-axis:</div>
+            <select id="xAxisVar" onchange="reDraw()">
+     <option></option>
+     <option value="physicalstrength" selected="selected">Strength</option>
+     <option value="speed" >Speed</option>
+     <option value="kickingpower">Kicking</option>
+     <option value="leadership">Leadership</option>
+</select>
+            <br>
+            <div id="control">Y-axis:</div>
+
+            <select id="yAxisVar" onchange="reDraw()">
+     <option></option>
+     <option value="physicalstrength">Strength</option>
+     <option value="speed" selected="selected">Speed</option>
+     <option value="kickingpower">Kicking</option>
+     <option value="leadership">Leadership</option>
+</select>
+        </div>
+        <div id="content">
+            <svg height="450" width="650">
+            </svg>
+        </div>
+        <div id="sidebarright" class="grad">
+        </div>
+        <div id="footer" class="grad"></div>
+    </div>
+    <!--<script type="text/javascript" src="javascripts/d3.js"></script>-->
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="javascripts/script.js"></script>
+</body>
+
+</html>

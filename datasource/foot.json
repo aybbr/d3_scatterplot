@@ -1,0 +1,57 @@
+[{
+    "name": "Neymar",
+        "physicalstrength": 20,
+        "speed": 7,
+        "kickingpower": 12,
+        "leadership": 4,
+        "cluster": 2
+}, {
+    "name": "Zlatan",
+        "physicalstrength": 19,
+        "speed": 5,
+        "kickingpower": 4,
+        "leadership": 8,
+        "cluster": 2
+}, {
+    "name": "Gareth Bale",
+        "physicalstrength": 18,
+        "speed": 12,
+        "kickingpower": 2,
+        "leadership": 7,
+        "cluster": 2
+}, {
+    "name": "Lionel Messi",
+        "physicalstrength": 17,
+        "speed": 2,
+        "kickingpower": 1,
+        "leadership": 17,
+        "cluster": 1
+}, {
+    "name": "Cristiano Ronaldo",
+        "physicalstrength": 16,
+        "speed": 17,
+        "kickingpower": 5,
+        "leadership": 16,
+        "cluster": 2
+}, {
+    "name": "Pogba",
+        "physicalstrength": 16,
+        "speed": 4,
+        "kickingpower": 13,
+        "leadership": 8,
+        "cluster": 1
+}, {
+    "name": "Griezmann",
+        "physicalstrength": 15,
+        "speed": 8,
+        "kickingpower": 15,
+        "leadership": 6,
+        "cluster": 1
+}, {
+    "name": "Giroud",
+        "physicalstrength": 14,
+        "speed": 4,
+        "kickingpower": 11,
+        "leadership": 7,
+        "cluster": 1
+}]
