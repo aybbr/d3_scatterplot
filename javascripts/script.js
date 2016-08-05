@@ -6,7 +6,8 @@ var w = 420,
     padding = 30;
 var xScale;
 var yScale;
-var tip = d3.tip()
+
+var tip = d3.tip() // `d3-tip` won't work yet if you use v4
     .attr('class', 'd3-tip')
     .offset([-10, 0])
     .html(function (d) {
